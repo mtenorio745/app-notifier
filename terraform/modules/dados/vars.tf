@@ -76,18 +76,3 @@ variable "rds_dbname" {
     type    = string
     default = "rdsdbname"
 }
-
-variable "rds_dbuser" {
-    type    = string
-    default = "rdsdbuser"
-}
-
-variable "rds_dbpassword" {
-    type    = string
-    default = "rdsdbpassword" 
-}
-
-variable "rds_multi_az" {
-    type    = bool
-    default = false
-}
